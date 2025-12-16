@@ -1,26 +1,69 @@
-.header{
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
+.header {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
 }
-.search-bar{
-    font-size: 20px;
-    margin-left: 10px;
-    display: block;
+.left {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
-.left{
-    background-color: aqua;
-    width: 150px;
+.menu {
+  height: 30px;
 }
-.middle{
-    background-color: pink;
-    flex: 1;
-    margin-left: 50px;
-    margin-right: 100px;
-    max-width: 400px;
+.logo {
+  height: 30px;
+}
+.middle {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 100px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  height: 32px;
+  flex: 1;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: rgb(202, 197, 197);
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.15);
+  width: 0;
+}
+.search-btn {
+  height: 36px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: rgb(202, 197, 197);
+  border-style: solid;
+}
+.voice-btn {
+  height: 36px;
+  width: 36px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: none;
+}
+.search {
+  height: 24px;
+}
+.right {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
 
+.icon {
+  height: 24px;
 }
-.right{
-    background-color: aquamarine;
-    width: 200px;
+.profile-logo {
+  height: 30px;
+  border-radius: 50%;
 }

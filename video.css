@@ -5,14 +5,13 @@
         column-gap: 15px;
       }
       .box {
-        width: 300px;
-        display: inline-block;
+        width: 100%;
       }
       .thumb {
         margin-bottom: 10px;
       }
       .img1 {
-        width: 300px;
+        width: 100%;
       }
       .pro-text {
         display: grid;

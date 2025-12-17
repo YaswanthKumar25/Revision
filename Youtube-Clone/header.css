@@ -2,6 +2,15 @@
   display: flex;
   height: 55px;
   justify-content: space-between;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(195, 190, 190);
+  z-index: 1;
 }
 .left {
   display: flex;
@@ -66,4 +75,19 @@
 .profile-logo {
   height: 30px;
   border-radius: 50%;
+}
+.notifications{
+  position: relative;
+}
+.time3{
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+
 }

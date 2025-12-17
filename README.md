@@ -28,7 +28,7 @@ This project helped me understand how real-world websites structure their layout
 ---
 
 ## 📂 Project Structure
-
+```text
 HTML-and-CSS-with-Youtube-Clone-Project/
 │
 ├── youtube.html # Main YouTube clone UI
@@ -37,7 +37,7 @@ HTML-and-CSS-with-Youtube-Clone-Project/
 ├── day3.html # Layout practice
 ├── images/ # Images & icons used
 ├── README.md # Project documentation
-
+```
 ---
 
 ## 🎯 Key Learnings
